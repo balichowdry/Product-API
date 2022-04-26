@@ -10,7 +10,7 @@ You can clone this repository with the following command:
 2. Install dependencies
 
 ```bash
-cd nestjs-prisma-workshop
+cd nestjs-prisma-product-example
 npm install
 ```
 
@@ -19,3 +19,13 @@ npm install
 ```bash
 npm i -g @nestjs/cli
 ```
+
+4. npm run start:dev
+
+Then Please hit the following URL's
+
+#Product listing 
+http://localhost:3000/products
+
+#SWAGGER DOC FOR API
+http://localhost:3000/api/
