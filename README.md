@@ -1,6 +1,6 @@
-# Building a REST API with NestJS and prisma
+# Building a REST API with NestJS and prisma + Postgres DB
 
-This repository contains the starter project for the **Building a REST API with NestJS and Prisma**  [Products API + SWAGGER DOC]
+This repository contains the starter project for the **Building a REST API with NestJS and Prisma with Postgres DB **  [Products API + SWAGGER DOC]
 ## Getting Started
 
 1. Clone this repository
