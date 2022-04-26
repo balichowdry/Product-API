@@ -10,7 +10,7 @@ You can clone this repository with the following command:
 2. Install dependencies
 
 ```bash
-cd nestjs-prisma-product-example
+cd Product-API
 npm install
 ```
 
@@ -29,3 +29,9 @@ http://localhost:3000/products
 
 # SWAGGER DOC FOR API
 http://localhost:3000/api/
+
+
+For any changes in the schema, please remove prisma/migration folder and run 
+npx prisma migrate dev 
+
+which will generate new schema
