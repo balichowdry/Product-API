@@ -6,12 +6,12 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-    .setTitle('Prisma Day - NestJS Prisma Workshop')
+    .setTitle('Product API - NestJS Prisma Postgres')
     .setDescription('Building a REST API with NestJS and Prisma')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document, { customSiteTitle: 'Prisma Day' });
+  SwaggerModule.setup('api', app, document, { customSiteTitle: 'Product API DOC' });
 
   await app.listen(3000);
 }
