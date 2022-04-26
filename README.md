@@ -6,6 +6,9 @@ This repository contains the starter project for the **Building a REST API with 
 1. Clone this repository
 
 You can clone this repository with the following command:
+```bash
+git clone https://github.com/balichowdry/Product-API.git
+```
 
 2. Install dependencies
 
