@@ -2,7 +2,7 @@
 export const products = [
   {
     name: "Calculator",
-    description: "Finnacial calculator",
+    description: "Financial calculator",
     price: 99,
     published: true,
   },
