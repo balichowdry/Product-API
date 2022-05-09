@@ -58,6 +58,11 @@ http://localhost:3000/products
 http://localhost:3000/api/
 
 
+
+![image](https://user-images.githubusercontent.com/3157273/167402553-851eef9b-d33d-4fc4-a876-965c26347fc7.png)
+
+
+
 For any changes in the schema, please remove prisma/migration folder and run 
 npx prisma migrate dev 
 
